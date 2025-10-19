@@ -18,7 +18,6 @@ HORST 900 Box Stacking (Python + JS)
 Control and launch a pallet/box stacking routine on a fruitcore HORST 900 robot from your computer.
 A JSON file defines the boxes and their target positions, Python sends this plan to the robot and starts the job, and a HORST-side JS program performs the actual pick/place moves.
 
-Bachelor project (Mechatronics) — first public version.
 
 ⸻
 
