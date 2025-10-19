@@ -150,7 +150,7 @@ main.py (GUI)
 
 ⸻
 
-Safety
+Safety Basic Guidelines
 	•	Start with low speed and a single test box.
 	•	Verify TCP/tool data, payload, and world frame in HorstFX.
 	•	Dry-run each approach code at safe heights to confirm clearances.
@@ -158,21 +158,3 @@ Safety
 
 ⸻
 
-Known issues / TODO
-	•	In StackingProgram.js, one line uses shape_z for height; JSON uses dim_z. Change to dim_z to avoid mismatches.
-	•	Only four corner approaches (3/5/7/9). Add more strategies if needed.
-	•	Several constants (anchor, blend radii, pick grid) are hard-coded in the JS; consider parameterizing.
-	•	Improve error handling and vacuum retry logic.
-	•	Move credentials (IP/user/password) to environment variables and remove from source.
-
-⸻
-
-License
-
-Add a license (e.g., MIT).
-
-⸻
-
-Acknowledgments
-	•	fruitcore robotics — HORST 900 / HorstFX
-	•	Supervisors/mentors for guidance and lab access
