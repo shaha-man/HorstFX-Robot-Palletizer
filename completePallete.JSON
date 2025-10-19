@@ -1,0 +1,97 @@
+{
+    "pallets": [
+        {
+            "palletNr": "001",
+            "palletType": "Euro",
+            "width": 0.3,
+            "length": 0.2,
+            "boxes": [
+				{
+                    "product_code": "MTA Box",
+                    "dim_x": 0.069,"dim_y": 0.115,"dim_z": 0.073,
+                    "x": 0.000,"y": 0.000,"z": 0.000,
+                    "approach": "9"
+                },
+                {
+                    "product_code": "servo",
+                    "dim_x": 0.063,
+                    "dim_y": 0.064,
+                    "dim_z": 0.037,
+                    "x": 0.000,
+                    "y": 0.115,
+                    "z": 0.000,
+                    "approach": "7"
+                },
+                {
+                    "product_code": "servo",
+                    "dim_x": 0.064,
+                    "dim_y": 0.064,
+                    "dim_z": 0.037,
+                    "x": 0.000,
+                    "y": 0.115,
+                    "z": 0.037,
+                    "approach": "7"
+                },
+				{
+                    "product_code": "webcamMonk",
+                    "dim_x": 0.082,
+                    "dim_y": 0.103,
+                    "dim_z": 0.053,
+                    "x": 0.069,
+                    "y": 0.000,
+                    "z": 0.000,
+                    "approach": "3"
+                },
+				{
+                    "product_code": "supernight",
+                    "dim_x": 0.082,
+                    "dim_y": 0.098,
+                    "dim_z": 0.032,
+                    "x": 0.069,
+                    "y": 0.103,
+                    "z": 0.000,
+                    "approach": "5"
+                },
+                {
+                    "product_code": "chalk",
+                    "dim_x": 0.052,
+                    "dim_y": 0.089,
+                    "dim_z": 0.021,
+                    "x": 0.069,
+                    "y": 0.000,
+                    "z": 0.053,
+                    "approach": "3"
+                },
+				{
+                    "product_code": "Magne B6",
+                    "dim_x": 0.0535,
+                    "dim_y": 0.081,
+                    "dim_z": 0.043,
+                    "x": 0.069,
+                    "y": 0.000,
+                    "z": 0.074,
+                    "approach": "3"
+                },
+				{
+                    "product_code": "VitaminD",
+                    "dim_x": 0.078,
+                    "dim_y": 0.1345,
+                    "dim_z": 0.024,
+                    "x": 0.151,
+                    "y": 0.000,
+                    "z": 0.000,
+                    "approach": "3"
+                }
+				
+            ]
+        }
+    ],
+    "articles": {
+        "0": {
+            "description": "SingleItem",
+            "weight": 1,
+            "shippingGroup": "A"
+        }
+    },
+    "orderID": ""
+}
