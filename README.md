@@ -57,6 +57,10 @@ pip install numpy opencv-python matplotlib
 4. The Python client **uploads/starts** the JS program on HorstFX.  
 5. The JS code **parses the JSON**, performs **pick → move → place** for each box using an approach strategy, and controls the **vacuum gripper I/O**.
 
+## Robot Requirement
+
+For executuion HORST-900 collaborative robot were used. Other modesl from fruitocre robots like HORST 700, 800 can be used, but their operations compatiblilies has to be double checked.
+
 ## Quick Start
 1. Configure connection in `client.py` (URL/IP/port and credentials). Prefer environment variables.  
 2. Launch:
